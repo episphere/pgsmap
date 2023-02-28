@@ -1,0 +1,21 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://episphere.github.io/gps/gps.css" rel="stylesheet">
+    <script src="./PGSmap.js"></script>
+</head>
+<body>
+    <hr>
+    <h1>PGSmap <sup style="font-size:medium;color:navy;font-weight:normal">
+        [<a href="https://github.com/episphere/pgsmap" target="_blank">Code</a>]
+        [<a href="https://observablehq.com/@episphere/pgsmap" target="_blank">Notebook</a>]
+        [YouTube]
+    </sup></h1>
+    <p>Exploring scale-free representations of genome mutation using iterated maps. This application generates map coordinates for polygenic risk score catalog (<a href="https://www.pgscatalog.org" target="_blank">PGS</a>) entries.</p>
+    <hr>
+    <p>
+        PGS catalog id: <input value=4 id="PGSid"> <button id="loadPGSbutton">load</button>
+        <br><span id="pgsInfo"></span>
+        <br><textarea id="entryTextArea" style="width:100%;color:lime;background-color:black;height:20em;font-size:small"></textarea>
+    </p>
+    <script src="./index.js"></script>
+</body>
